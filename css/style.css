@@ -1,0 +1,137 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: Roboto;
+  background-color: rgb(235, 235, 235);
+}
+
+/* @font-face {
+  font-family: slava-antipov;
+  src: url("../font/slava-antipov.eot"), url("../font/slava-antipov.otf");
+}
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+} */
+
+/* BUTTONS */
+/* Botão Primary */
+.btn-primary {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  background-color: #0044cc;
+  padding: 4px 14px;
+  border: 3px solid #0044cc;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #002b80;
+  border: 3px solid #002b80;
+  color: rgb(255, 255, 255);
+}
+
+.btn-success {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  background-color: #39ac39;
+  padding: 4px 14px;
+  border: 3px solid #39ac39;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #194d19;
+  border: 3px solid #194d19;
+  color: rgb(255, 255, 255);
+}
+
+/* Botão Danger */
+.btn-danger {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  background-color: #e60000;
+  padding: 4px 14px;
+  border: 3px solid #e60000;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #800000;
+  border: 3px solid #800000;
+  color: rgb(255, 255, 255);
+}
+
+/* Botão Secondary */
+.btn-secondary {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  background-color: #737373;
+  padding: 4px 14px;
+  border: 3px solid #737373;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+  border: 3px solid #333333;
+  color: rgb(255, 255, 255);
+}
+
+/* .btn-secondary {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  background-color: #737373;
+  padding: 4px 14px;
+  border: 3px solid #737373;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+  border: 3px solid #333333;
+  color: rgb(255, 255, 255);
+} */
+
+/*-----------------------------------------------------------------*/
+
+/* FORMS */
+
+.form-label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
